@@ -9,6 +9,20 @@
     <script src='main.js'></script>
 </head>
 <body>
+
+    <hearder class="cabeçalho">
+ 
+        <h1 style ="text-align: center;front-family: Tahoma, verdana, sans-serif;
+        ">Minha Página</h1>
+        
+    <nav classe="menu">
+        <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="./contecthtml">Contact</a></li>
+              <li><a href="./Abouthtml">About</a></li>
+        </ul>
+    </nav>
+  </header>
     
 </body>
 </html>

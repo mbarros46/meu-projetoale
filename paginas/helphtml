@@ -37,15 +37,15 @@
                 <div>
                     <h2>Parceiros</h2>
                     <figure>
-                        <img src="../img/icons-842893_640.png" alt="Logo Facebook">
+                        <img src="../img/facebook-box-1334045_640.png" alt="Logo Facebook">
                         <figcaption>Facebook:</figcaption>
                     </figure>
                     <figure>
-                        <img src="../img/icon-1562139_640.png" alt="logo instagram">
+                        <img src="../img/" alt="logo instagram">
                         <figcaption>instagram</figcaption>
                     </figure>
                     <figure>
-                        <img src="../img/logo-google-1991840_640.png" alt="logo google">
+                        <img src="../img/" alt="logo google">
                         <figcaption>google</figcaption>
                     </figure>
                 </div>

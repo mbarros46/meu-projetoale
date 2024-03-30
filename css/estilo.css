@@ -1,44 +1,70 @@
-html {
-    font-size: 16px;
+h1, h2{
+    font-family: serif;
+}
+h1 {
+    color: red;
+    text-align: center;
 }
 
-#cabecalho {
-    font-size: 62.5%; /* 1rem = 10px */
-    background-image: url('../img/img-01-banner-1280×640.png');
+.container{
+    margin: 20px;
+}
+
+
+#cabecalho{
+    background-color: blue;
+    background-image: url("../img/31587235e5aa11e.jpg");
     background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
     background-size: cover;
 }
-
-h1 {
-    color: red;
-    font-size: 5em;
-    text-align: center;
+p{
+    color: green;
 }
+
 
 .link {
+    border: 2px solid #ff0000;
     display: inline-block;
-    margin: 0 5% 1% 5%;
-    border: solid 2px red;
-    background-color: rgba(255, 0, 0, 0.2);
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in;
+    margin: 0 2%;
+    background-color: rgba(255, 0, 0, 0.200);
+    padding: 5px 5px;
+    width: 15%;
+    transition: all 0.4s  ease-out;
+
+    &:hover {
+        background-color: rgba(255, 0, 0, 0.500);
+    }
+
+    
+    a {
+        display: inline-block;
+        text-decoration: none;
+        color: #000;
+    
+       
+        img{
+            display: inline-block;
+            width: 25%;
+        }
+
+    }
+
 }
 
-.link:hover {
-    background-color: red;
+#conteudo{
+    padding: 1.5px;
 }
-
-.link a {
-    text-decoration: none;
-    color: red;
-}
-
-.link a img {
-    display: inline-block;
-    width: 50%;
-}
-
-#menu ul {
+#menu ul{
+    list-style-type: none;
     text-align: center;
+    font-weight: bold;
+}
+#rodape{
+    border-top: 2px red;
+}
+
+#sites ul{
+    font-weight: bold;
 }

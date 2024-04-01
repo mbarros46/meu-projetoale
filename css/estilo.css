@@ -61,8 +61,8 @@ p{
     text-align: center;
     font-weight: bold;
 }
-#rodape{
-    border-top: 2px red;
+footer {
+    border-top: 2px solid red; /* Alterado para 2px sólida */
 }
 
 #sites ul{
